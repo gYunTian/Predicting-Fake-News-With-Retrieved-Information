@@ -11,7 +11,7 @@ This form of fusion done is the simplest and is called 'Priming'.
 ![image](https://user-images.githubusercontent.com/54625060/170184988-c058e8ba-687c-40e4-9515-2f32c5881012.png)
 
 ### Results
-For the sake of reproducibility, the Prediction dataset, training code and seed are kept same across the experiments, except the lines required to alter the fusion mechanism 
+For the sake of reproducibility, the Prediction dataset, training code and seed(123) are kept same across the experiments, except the lines required to alter the fusion mechanism 
 #### 1) Baseline without fusion
 ![single query](https://user-images.githubusercontent.com/54625060/170483673-9fcb49da-2ce5-4453-b33e-fdb63479a454.jpg)
 training file: /src/training/submit_single_query_training.ipynb
