@@ -36,3 +36,4 @@ Given that code, data, seed at kept similar, conclude that augmenting input with
 ### To reproduce results:
 Change ./final_train.csv etc.., to ./dataset/... in the following codes in the training and testing file
 ![image](https://user-images.githubusercontent.com/54625060/170484339-21d1db66-19d9-4126-8bb3-5a2f8b684b7b.png)
+It doesnt take long to train. In the training file, epoch can be changed to 3 instead of 10.
