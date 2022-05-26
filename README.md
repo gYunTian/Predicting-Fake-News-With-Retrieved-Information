@@ -3,9 +3,9 @@ Augmenting inputs to BERT, with retrieved information to predict labels
 
 ### Main Idea:
 The goal of this classification is to label passages as fake/real via a Bert model.
-We added a step on Information Retrieval (via BM25) to retrieve relevant pieces of information pertaining to the passage that is to be classified.
-The retrieved information are then fused with the passages via 'Priming'.
-The form of fusion done is is the simplest, by prepending retrieved passages to the input.
+What was done differently is that in this experiment, included a step on Information Retrieval (via BM25) to retrieve relevant pieces of information pertaining to the passage (that is to be classified).
+Subsequently, the retrieved information are then fused with the passages by prepending retrieved passages to the input.
+This form of fusion done is is the simplest and is called 'Priming'.
 
 ### Overview of Solution:
 ![image](https://user-images.githubusercontent.com/54625060/170184988-c058e8ba-687c-40e4-9515-2f32c5881012.png)
