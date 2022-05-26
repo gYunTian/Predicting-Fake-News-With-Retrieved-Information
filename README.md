@@ -1,5 +1,5 @@
 # simple-Bert-Retrieval-augmented-classification
-Augmenting inputs to BERT, with retrieved information to predict labels
+Augmenting inputs to BERT, with retrieved information, before predicting their labels
 
 ### Main Idea:
 The goal of this classification is to label passages as fake/real via a Bert model.
