@@ -1,4 +1,4 @@
-# simple-Bert-IR-augmented-classification
+# simple-Bert-Retrieval-augmented-classification
 Augmenting inputs to BERT, with retrieved information to predict labels
 
 ### Main Idea:
