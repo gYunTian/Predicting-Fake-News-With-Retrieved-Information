@@ -7,8 +7,10 @@ What is done differently is that in this experiment (vs normal classification), 
 Subsequently, the retrieved information (only one) is/are fused with the passage by prepending retrieved info to Bert input.
 This form of fusion done is the simplest and is called 'Priming'.
 
+
 ### Overview of Solution:
 ![image](https://user-images.githubusercontent.com/54625060/170184988-c058e8ba-687c-40e4-9515-2f32c5881012.png)
+
 
 ### Results
 For the sake of reproducibility, the Prediction dataset, training code and seed(123) are kept same across the experiments, except the lines required to alter the fusion mechanism 
@@ -19,6 +21,7 @@ For the sake of reproducibility, the Prediction dataset, training code and seed(
 
 <b>testing file</b>: /src/testing/submit_single_query(p)_testing.ipynb
 
+
 #### 2) With fusion
 ![paired_query](https://user-images.githubusercontent.com/54625060/170483836-9fb4bd50-72db-4bdf-9dcb-b808f0c9340e.jpg)
 
@@ -28,6 +31,7 @@ For the sake of reproducibility, the Prediction dataset, training code and seed(
 
 Main differences: all form of metric are considerably higher.
 Given that code, data, seed at kept similar, conclude that augmenting input with retrieved info improves performance, and can bring in external info as well
+
 
 ### To reproduce results:
 Change ./final_train.csv etc.., to ./dataset/... in the following codes in the training and testing file
