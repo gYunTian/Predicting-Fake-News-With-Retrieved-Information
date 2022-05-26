@@ -15,7 +15,7 @@ This form of fusion done is the simplest and is called 'Priming'.
 ### Results
 For the sake of reproducibility, the Prediction dataset, training code and seed(123) are kept same across the experiments, except the lines required to alter the fusion mechanism 
 #### 1) Baseline without fusion
-![single query](https://user-images.githubusercontent.com/54625060/170483673-9fcb49da-2ce5-4453-b33e-fdb63479a454.jpg)
+![single query](https://user-images.githubusercontent.com/54625060/170484839-3ab29a87-b6a9-4e08-a1cd-c320aa3f5e15.jpg)
 
 <b>training file</b>: /src/training/submit_single_query_training.ipynb
 
@@ -23,14 +23,14 @@ For the sake of reproducibility, the Prediction dataset, training code and seed(
 
 
 #### 2) With fusion
-![paired_query](https://user-images.githubusercontent.com/54625060/170483836-9fb4bd50-72db-4bdf-9dcb-b808f0c9340e.jpg)
+![paired_query](https://user-images.githubusercontent.com/54625060/170484855-6b620cac-cfba-4181-8871-16b30ff58711.jpg)
 
 <b>training file</b>: /src/training/submit_paired_query(p%2Ch)_training.ipynb
 
 <b>testing file</b>: /src/testing/submit_paired_query(p%2Ch)_testing.ipynb
 
-Main differences: all form of metric are considerably higher.
-Given that code, data, seed at kept similar, conclude that augmenting input with retrieved info improves performance, and can bring in external info as well
+Main differences: all form of metric in 2) are considerably higher.
+Given that code, data, seed at kept similar, can conclude that augmenting input with retrieved info improves performance. -> bringing in external info improves perf
 
 
 ### To reproduce results:
