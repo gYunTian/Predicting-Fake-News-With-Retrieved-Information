@@ -1,5 +1,5 @@
 # simple-Bert-IR-augmented-classification
-Augmenting inputs to BERT with retrieved information to predict labels
+Augmenting inputs to BERT, with retrieved information to predict labels
 
 ### Main Idea:
 The goal of this classification is to label passages as fake/real via a Bert model.
@@ -11,6 +11,7 @@ The form of fusion done is is the simplest, by prepending retrieved passages to 
 ![image](https://user-images.githubusercontent.com/54625060/170184988-c058e8ba-687c-40e4-9515-2f32c5881012.png)
 
 ### Results
+Prediction dataset, code and seed are kept same across the experiments 
 #### Baseline without fusion
 ![image](https://user-images.githubusercontent.com/54625060/170185440-bfbb658b-fdae-42ad-b3e3-f728985dc12f.png)
 
