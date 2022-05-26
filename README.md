@@ -12,10 +12,10 @@ The form of fusion done is is the simplest, by prepending retrieved passages to 
 
 ### Results
 Prediction dataset, code and seed are kept same across the experiments 
-#### Baseline without fusion
+#### 1) Baseline without fusion
 ![image](https://user-images.githubusercontent.com/54625060/170185440-bfbb658b-fdae-42ad-b3e3-f728985dc12f.png)
 
-#### With two different fusion
+#### 2) With two different fusion
 ![image](https://user-images.githubusercontent.com/54625060/170185502-b1c896fa-e6ca-4a87-bcda-5c9b6f142ec2.png)
 
 ![image](https://user-images.githubusercontent.com/54625060/170185512-7b0e800e-e1ad-487a-b0d6-bd7ee086a96d.png)
