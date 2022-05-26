@@ -35,3 +35,16 @@ Change ./final_train.csv etc.., to ./dataset/... in the following codes in the t
 
 
 It doesnt take long to train. In the training file, epoch can be changed to 3 instead of 10.
+
+## References:
+Based on survey: https://openreview.net/forum?id=9_oCNR6R9l2
+
+Cited as:
+
+    @article{yuntian2022bertkbfusion,
+      title   = "Bert-IR-augmented-classification",
+      author  = "Yun Tian, Gan",
+      journal = "",
+      year    = "2022",
+      url     = "https://github.com/gYunTian/simple-Bert-IR-augmented-classification"
+    }
