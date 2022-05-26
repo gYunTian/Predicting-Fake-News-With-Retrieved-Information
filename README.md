@@ -16,12 +16,14 @@ For the sake of reproducibility, the Prediction dataset, training code and seed(
 ![single query](https://user-images.githubusercontent.com/54625060/170483673-9fcb49da-2ce5-4453-b33e-fdb63479a454.jpg)
 
 <b>training file</b>: /src/training/submit_single_query_training.ipynb
+
 <b>testing file</b>: /src/testing/submit_single_query(p)_testing.ipynb
 
 #### 2) With fusion
 ![paired_query](https://user-images.githubusercontent.com/54625060/170483836-9fb4bd50-72db-4bdf-9dcb-b808f0c9340e.jpg)
 
 <b>training file</b>: /src/training/submit_paired_query(p%2Ch)_training.ipynb
+
 <b>testing file</b>: /src/testing/submit_paired_query(p%2Ch)_testing.ipynb
 
 Main differences: all form of metric are considerably higher.
