@@ -24,3 +24,7 @@ testing file: /src/testing/submit_paired_query(p%2Ch)_testing.ipynb
 
 Main differences: all form of metric are considerably higher.
 Given that code, data, seed at kept similar, conclude that augmenting input with retrieved info improves performance, and can bring in external info as well
+
+### To reproduce results:
+Change ./final_train.csv etc.., to ./dataset/... in the following codes in the training and testing file
+![image](https://user-images.githubusercontent.com/54625060/170484339-21d1db66-19d9-4126-8bb3-5a2f8b684b7b.png)
