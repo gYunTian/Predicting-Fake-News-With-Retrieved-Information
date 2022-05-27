@@ -31,7 +31,7 @@ Given that the code, dataset, seed are kept similar, and only with fusion method
 
 ## Implications:
 Why is this important? Because this experiment shows that we can augment model parameters with external knowledge to update the prediction. 
-Large language models suffer from fixed weights and the knowledge it learns during training will become obselete as time passes.
+Large language models suffer from fixed parameters and the knowledge it learns during training will become obselete as time passes.
 Hence, fusing retrieved information with the input allows us to overcome that constraint.
 
 ## To reproduce results:
