@@ -29,6 +29,11 @@ For the sake of reproducibility, the Prediction dataset, training code and seed(
 Main differences: all form of metric in 2) after applying fusion, are considerably higher than 1) (without).
 Given that the code, dataset, seed are kept similar, and only with fusion method differing in 1 and 2, can conclude that augmenting input with retrieved info does improve performance -> thereby bringing in external info can improve perf, inline with what research publications found <br />
 
+## Implications:
+Why is this important? Because this experiment shows that we can augment model parameters with external knowledge to update the prediction. 
+Large language models suffer from fixed weights and the knowledge it learns during training will become obselete as time passes.
+Hence, fusing retrieved information with the input allows us to overcome that constraint.
+
 ## To reproduce results:
 Change ./final_train.csv etc.., to ./dataset/... in the following codes in the training and testing file
 ![image](https://user-images.githubusercontent.com/54625060/170484339-21d1db66-19d9-4126-8bb3-5a2f8b684b7b.png)
