@@ -1,4 +1,4 @@
-# simple-Bert-Retrieval-augmented-classification
+# Bert-Fusing-Retrieval-with-Classification
 Augmenting inputs to BERT with retrieved information, before predicting their labels. 7% improvement from this simple method vs base case.
 
 ## Main Idea:
