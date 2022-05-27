@@ -27,7 +27,7 @@ For the sake of reproducibility, the Prediction dataset, training code and seed(
 <b>testing file</b>: /src/testing/submit_paired_query(p%2Ch)_testing.ipynb
 
 Main differences: all form of metric in 2) after applying fusion, are considerably higher than 1) (without).
-Given that the code, dataset, seed are kept similar, can conclude that augmenting input with retrieved info improves performance, -> thereby bringing in external info improves perf<br />
+Given that the code, dataset, seed are kept similar, and only with fusion method differing in 1 and 2, can conclude that augmenting input with retrieved info does improve performance -> thereby bringing in external info can improve perf, inline with what research publications found <br />
 
 ## To reproduce results:
 Change ./final_train.csv etc.., to ./dataset/... in the following codes in the training and testing file
