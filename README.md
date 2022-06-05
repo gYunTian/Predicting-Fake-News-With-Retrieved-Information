@@ -1,4 +1,4 @@
-# Bert-Fusing-Retrieval-with-Classification
+# CrossEncoder-Fusing-Retrieval-with-Classification
 Augmenting inputs to BERT with retrieved information, before predicting their labels. 7% improvement from this simple method vs base case.
 
 ## Main Idea:
@@ -47,13 +47,3 @@ It doesnt take long to train. In the training file, epoch can be changed to 3 in
 
 ## References:
 Based on survey: https://openreview.net/forum?id=9_oCNR6R9l2
-
-Cited as:
-
-    @article{yuntian2022bertkbfusion,
-      title   = "Bert-IR-augmented-classification",
-      author  = "Yun Tian, Gan",
-      journal = "",
-      year    = "2022",
-      url     = "https://github.com/gYunTian/simple-Bert-IR-augmented-classification"
-    }
